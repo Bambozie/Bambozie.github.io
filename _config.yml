@@ -45,7 +45,7 @@ copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 description: >- # this means to ignore newlines until "baseurl:"
   Behind the scenes of my latest skill development & Academic Contributions.
 
-baseurl: "/E-Portfolio" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "assets/faviconio-logo/logo.svg" # the favicon for your site
 
