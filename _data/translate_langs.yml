@@ -2,7 +2,7 @@
 # langs refer to https://cloud.google.com/translate/docs/languages
 
 - lang: en
-  img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+  img: https://cdn.countryflags.com/thumbs/canada/flag-400.png
   text: English
 
 - lang: fr
@@ -30,5 +30,5 @@
   text: Germany
   
 - lang: ar
-  img: https://cdn.countryflags.com/thumbs/egypt/flag-400.png
-  text: Egypt
+  img: https://cdn.countryflags.com/thumbs/jordan/flag-400.png
+  text: Jordan
