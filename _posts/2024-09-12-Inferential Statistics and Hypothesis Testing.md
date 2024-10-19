@@ -2,7 +2,7 @@
 layout: post
 title: F-Test Analysis of Income by Gender
 subtitle: Inferential Statistics and Hypothesis Testing Unit 7
-categories: Academic Work
+categories: [University of Essex]
 tags: [University of Essex, Academic Work, Unit 7, Research Methods and Professional Practice, Inferential Statistics and Hypothesis Testing]
 ---
 # F-Test Analysis of Income by Gender
