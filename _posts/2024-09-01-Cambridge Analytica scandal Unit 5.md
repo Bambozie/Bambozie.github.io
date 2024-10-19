@@ -3,7 +3,7 @@ layout: post
 title: Analysis of Inappropriate Use of Surveys for Data Harvesting
 subtitle: The Cambridge Analytica scandal Unit 5
 categories: Academic Work
-tags: [University of Essex, Academic Work, Unit 5]
+tags: [University of Essex, Academic Work, Unit 5, Research Methods and Professional Practice]
 ---
 
 ## Task: Analysis of Survey Misuse for Data Harvesting
