@@ -49,5 +49,6 @@ The misuse of surveys and personal data collection techniques across different i
 
 The Cambridge Analytica case and others like it serve as cautionary tales, emphasizing the need for greater transparency, ethical conduct, and robust legal frameworks in the handling of personal data.
 
-Fussel, S. (November 14, 2019)Google’s Totally Creepy, Totally Legal Health-Data Harvesting. The Atlantic. Available from: https://www.theatlantic.com/technology/archive/2019/11/google-project-nightingale-all-your-health-data/601999/ [Accessed 28 August 2024].
-Eidell, L. (May 15, 2024)What Happened to Ashley Madison? The True Story of the Dating Site's Infamous 2015 Hack — and How It Bounced Back. People. Available from: https://people.com/ashley-madison-dating-website-2015-hack-true-story-8644849 [Accessed 27 August 2024].
+## References
+- Fussel, S. (November 14, 2019)Google’s Totally Creepy, Totally Legal Health-Data Harvesting. The Atlantic. Available from: https://www.theatlantic.com/technology/archive/2019/11/google-project-nightingale-all-your-health-data/601999/ [Accessed 28 August 2024].
+- Eidell, L. (May 15, 2024)What Happened to Ashley Madison? The True Story of the Dating Site's Infamous 2015 Hack — and How It Bounced Back. People. Available from: https://people.com/ashley-madison-dating-website-2015-hack-true-story-8644849 [Accessed 27 August 2024].
