@@ -6,6 +6,7 @@ categories: [University of Essex]
 tags: [University of Essex, Academic Work, unit 28, Dissertation Module]
 ---
 ## Client Encrypt
+```
 #include "seal/seal.h"
 #include <iostream>
 #include <fstream>
@@ -113,10 +114,10 @@ int main() {
     cout << "Client: Encrypted " << count << " BPM values (out of " << slot_count << " slots). All data saved.\n";
     return 0;
 }
-
+```
 
 ## Cloud Process
-
+```
 #include "seal/seal.h"
 #include <iostream>
 #include <fstream>
@@ -192,19 +193,21 @@ int main() {
     }
 }
 // some code snippets have been taken from https://github.com/microsoft/SEAL/blob/main/native/examples/5_ckks_basics.cpp
-
+```
 ## Client Decrypt
-
+```
 #include "seal/seal.h"
 #include <iostream>
 #include <fstream>
 #include <vector>
 #include <string>
+#include <chrono>
 
 using namespace std;
 using namespace seal;
 
 int main() {
+    auto start = chrono::high_resolution_clock::now();
     EncryptionParameters parms(scheme_type::ckks); //CKKS encryption parameters
     size_t poly_modulus_degree = 8192;
     parms.set_poly_modulus_degree(poly_modulus_degree);
@@ -262,7 +265,9 @@ int main() {
     double average = total / static_cast<double>(valid_count);  //calculating the average using the slot count and summed values
 
     cout << "Client: Decrypted average heart rate = " << average << " bpm (approx).\n";
-
+    auto end = chrono::high_resolution_clock::now();
+    auto duration = chrono::duration_cast<chrono::milliseconds>(end - start).count();
+    cout << "Client: Decryption & division took: " << duration << " ms.\n";
     
     ofstream csv("E:\\Dissertation Coding\\Results\\decrypted_average.csv"); // to save the output in a csv file
     if (csv.is_open()) {
@@ -277,9 +282,9 @@ int main() {
 
     return 0;
 }
-
+```
 ## Benchmark code
-
+```
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -360,3 +365,4 @@ int main() {
 
     return 0;
 }
+```
